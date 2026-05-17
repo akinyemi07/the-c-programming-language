@@ -33,4 +33,12 @@ This statement tells C to include the information required for standard input an
 ### Escape sequences 
 \\n - this encodes for a newline character, when printed it advances the output to the left margin on the next line 
 
-- Printf never supplies a newline character automatically, escape sequences like \n provides a general and extensible mechanism for representing hard to type or invisible character - other examples are \t , \b, \", \\ etc 
+- Printf never supplies a newline character automatically, escape sequences like \n provides a general and extensible mechanism for representing hard to type or invisible character - other examples are \t , \b, \", \\ etc
+
+
+- ##comments : Anything in \/*\*/ and the compiler ignores it but comments are essential because they make code work better 
+
+- in C all variables need to be declared before usage. Declaration is the initialization of a varaible. 
+example int fahr ;
+     int upper ; 
+    int lower, step; 
